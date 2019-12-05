@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>tietoliikenne</title>
+  <style>
+    body {
+      background-color: lightgrey;
+      color: blue;
+    }
+
+
+
+    h1 {
+      color: green;
+    }
+
+    #para1 {
+      text-align: center;
+      color: red;
+    }
+
+    li {
+      /*display: inline;*/
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("#hide").click(function () {
+        $("#piilotaNama").hide(2000);
+      });
+      $("#show").click(function () {
+        $("#piilotaNama").show(2000);
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <h1 id="para1">Markku Saarenpää</h1>
+  <h2 id="para1">Ammattiopisto Varia, Vantaa</h2>
+
+  
+  <p>Tietoliikenne- ja antenniverkkojen asennusten asiantuntija.</p>
+
+  <p>Valokuitukaapeloinnit kiinteistöissä sekä talo- ja kerrosjakamoiden
+    räkkiasennukset operaattoreiden sekä
+    taloyhtiön aktiivilaitteiden asennuksineen.</p>
+
+  <p>Kuparikaapeloinnit jopa CAT7 standardiin ja nopeisiin 10Gbs yhteyksiin asti ryhmäkeskusten välille.</p>
+
+  <p>Tietoliikenne- ja antenniverkkojen suunnittelu.</p>
+
+  <ul id="piilotaNama">
+    <li><a href="/html/default.asp" target="_blank">Diagrammi</a></li>
+    <li><a href="/css/default.asp" target="_blank">Koodit</a></li>
+  </ul>
+  
+  <ul>
+    <li>1</a></li>
+    <li>2</a></li>
+  </ul>
+
+  <button id="hide">Hide</button>
+  <button id="show">Show</button><br>
+
+  <img src="seina.jpg" width="600" height="400">
+
+</body>
+
+</html>
